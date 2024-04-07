@@ -1,0 +1,1051 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#"
+     xml:base="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#值 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#值">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#参数值"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#包含">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#单位 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#单位">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#单位"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#属于">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#所属区域名称"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#描述 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#描述">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#描述"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#单位 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#单位">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#参数值 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#参数值">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#造纸工艺本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#造纸工艺本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#所属区域名称 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#所属区域名称">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#造纸工艺本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#描述 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#描述">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#气罩系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#气罩系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#稳纸风箱真空 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#稳纸风箱真空">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#纸页横幅 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#纸页横幅">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部脱水量 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部脱水量">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#速差 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#速差">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#造纸工艺本体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#造纸工艺本体"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压上接水盘 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压上接水盘">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部脱水量"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压下接水盘 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压下接水盘">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部脱水量"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压毛布 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压毛布">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部脱水量"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压毛布张力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压毛布张力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压毛布真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压毛布真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压线压（DS） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压线压（DS）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压线压（TS） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#一压线压（TS）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#三压接水盘 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#三压接水盘">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部脱水量"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#三压毛布 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#三压毛布">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部脱水量"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#三压毛布张力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#三压毛布张力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#三压毛布真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#三压毛布真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#三压线压 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#三压线压">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#三压边压 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#三压边压">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#上辊上胶流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#上辊上胶流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#上辊上胶量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#上辊上胶量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#上辊固含量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#上辊固含量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#上辊平均挂胶量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#上辊平均挂胶量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#下辊上胶流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#下辊上胶流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#下辊上胶量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#下辊上胶量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#下辊固含量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#下辊固含量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#下辊平均挂胶量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#下辊平均挂胶量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#二压线压（DS） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#二压线压（DS）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#二压线压（TS） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#二压线压（TS）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#伏辊低真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#伏辊低真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#伏辊高真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#伏辊高真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#冲浆槽温度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#冲浆槽温度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#切边水针位置（DS） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#切边水针位置（DS）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#纸页横幅"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#切边水针位置（TS） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#切边水针位置（TS）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#纸页横幅"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#切边水针压力（DS） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#切边水针压力（DS）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#切边水针压力（TS） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#切边水针压力（TS）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#前烘蒸汽压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#前烘蒸汽压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#卷取张力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#卷取张力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#卷取水分 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#卷取水分">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#纸页横幅"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#卷取线压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#卷取线压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#压光机张力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#压光机张力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#压光机温度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#压光机温度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#压光机线压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#压光机线压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#压榨辊低真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#压榨辊低真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#压榨辊高真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#压榨辊高真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#后烘蒸汽压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#后烘蒸汽压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#唇板开度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#唇板开度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#唇板流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#唇板流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#垫层浆流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#垫层浆流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#多盘白水流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#多盘白水流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#多级靴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#多级靴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部脱水量"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#干强剂用量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#干强剂用量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#平面真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#平面真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#底层上网浓度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#底层上网浓度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#底层冲浆泵转速 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#底层冲浆泵转速">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#底层流浆箱压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#底层流浆箱压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#底网张力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#底网张力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#引纸毛布 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#引纸毛布">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部脱水量"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#引纸毛布张力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#引纸毛布张力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#引纸毛布真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#引纸毛布真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#引纸辊低真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#引纸辊低真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#引纸辊高真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#引纸辊高真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#成型辊 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#成型辊">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#成型靴1室 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#成型靴1室">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部脱水量"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#成型靴2室 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#成型靴2室">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部脱水量"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#成型靴3室 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#成型靴3室">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部脱水量"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#施胶前张力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#施胶前张力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#施胶后张力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#施胶后张力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#施胶水分 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#施胶水分">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#曲面真空1室 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#曲面真空1室">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#曲面真空2室 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#曲面真空2室">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#气浮间隙 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#气浮间隙">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#流浆箱倾角 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#流浆箱倾角">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#浆网速比 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#浆网速比">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#白水浓度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#白水浓度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#稀释水流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#稀释水流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#稀释水率 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#稀释水率">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#纸幅展开 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#纸幅展开">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#纸页横幅"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#蒸汽总流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#蒸汽总流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#蒸汽箱压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#蒸汽箱压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#蒸汽箱流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#蒸汽箱流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#转移真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#转移真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#面层冲浆泵转速 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#面层冲浆泵转速">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#面层流浆箱压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#面层流浆箱压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#顶网张力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#顶网张力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网压部参数"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#高真空1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#高真空1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#高真空2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#高真空2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#高真空3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#高真空3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#高真空4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#高真空4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#网部真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#1低真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#1低真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#稳纸风箱真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#1塔排风 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#1塔排风">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#气罩系统"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#1塔送风 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#1塔送风">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#气罩系统"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#1组 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#1组">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#速差"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#1高真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#1高真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#稳纸风箱真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#2低真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#2低真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#稳纸风箱真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#2塔排风 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#2塔排风">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#气罩系统"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#2塔送风 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#2塔送风">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#气罩系统"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#2组 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#2组">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#速差"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#3低真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#3低真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#稳纸风箱真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#3组 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#3组">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#速差"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#3高真空 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#3高真空">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#稳纸风箱真空"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#4组 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#4组">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#速差"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#5组 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#5组">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#速差"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#6组 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#6组">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#工艺单元参数"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-26#速差"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

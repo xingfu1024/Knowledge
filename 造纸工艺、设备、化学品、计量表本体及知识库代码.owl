@@ -1,0 +1,3376 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#"
+     xml:base="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-25="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#属性 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#属性"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#包含 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#包含">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型参数"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机参数 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机参数">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一压 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一压">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一压吸移真空辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一压吸移真空辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一压底辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一压底辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一压毛布吸水箱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一压毛布吸水箱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#吸水箱"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一段筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一段筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#三压毛布吸水箱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#三压毛布吸水箱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#三压毛布张力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#三压毛布张力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#三压靴套 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#三压靴套">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#二压"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#上浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#上浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#中心传动辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#中心传动辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#二压 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#二压">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池抽浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池抽浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#传动侧断纸信号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#传动侧断纸信号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#断纸信号"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#使用状态 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#使用状态">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸计量表本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#供料泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#供料泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#保护除渣器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#保护除渣器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#储存槽泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#储存槽泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#入口泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#入口泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#再碎机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#再碎机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#冲浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#冲浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#冷凝罐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#冷凝罐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#分级筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#分级筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#切边水槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#切边水槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#切边水泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#切边水泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#切边水针 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#切边水针">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#制备 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#制备">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#纸浆用化学品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#前烘循环风机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#前烘循环风机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#风机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#前烘汽罩 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#前烘汽罩">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#汽罩"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸化学品本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品参数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品参数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#配方"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品名称 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品名称">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#纸加工化学品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#单位 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#单位">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型参数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卷取 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卷取">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卷纸机损纸池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卷纸机损纸池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸池"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卷纸机损纸池抽浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卷纸机损纸池抽浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抽浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卷纸机损纸池搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卷纸机损纸池搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卷纸缸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卷纸缸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卸料塔 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卸料塔">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卸料塔搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卸料塔搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卸料泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卸料泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压光前断纸信号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压光前断纸信号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#断纸信号"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压光后断纸信号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压光后断纸信号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#断纸信号"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#计量表类型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压榨损纸池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压榨损纸池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸池"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压榨损纸池抽浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压榨损纸池抽浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抽浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压榨接水盘 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压榨接水盘">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压榨辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压榨辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压部">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#参数值 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#参数值">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#技术指标"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#后烘循环风机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#后烘循环风机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#风机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#后烘汽罩 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#后烘汽罩">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#汽罩"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#启停池出口泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#启停池出口泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#吸水箱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#吸水箱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#吸移毛布吸水箱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#吸移毛布吸水箱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#吸水箱"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#吸移毛布张力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#吸移毛布张力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#吸移辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#吸移辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#喷淋水槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#喷淋水槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#回收浆池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#回收浆池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#回收浆池抽浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#回收浆池抽浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抽浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#圆筒筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#圆筒筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#备用泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#备用泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#多圆盘 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#多圆盘">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#多盘清滤液池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#多盘清滤液池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#多级靴 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#多级靴">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#密封水槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#密封水槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#密封水过滤器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#密封水过滤器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#工艺单元 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#工艺单元">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸工艺本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#工艺单元参数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#工艺单元参数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸工艺本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#干损纸塔 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#干损纸塔">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#纸塔"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#干损纸塔搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#干损纸塔搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#干损纸塔搅拌器电机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#干损纸塔搅拌器电机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#平吸箱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#平吸箱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层2段筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层2段筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层2段筛进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层2段筛进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#进浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层上料桶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层上料桶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层上浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层上浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#上浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层成浆池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层成浆池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成浆池"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层成浆池搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层成浆池搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层成浆池浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层成浆池浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层振筛槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层振筛槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层流浆箱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层流浆箱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流浆箱"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层混合浆池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层混合浆池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层混合浆池供浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层混合浆池供浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#供料泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层混合浆池搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层混合浆池搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层纸机筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层纸机筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层胶料一段筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层胶料一段筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一段筛"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层胶料泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层胶料泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#胶料泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层除气器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层除气器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除气器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底浆冲浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底浆冲浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#冲浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底网伏辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底网伏辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底网张力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底网张力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底网驱动辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底网驱动辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成型靴 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成型靴">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成形辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成形辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成形部低真空 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成形部低真空">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成浆池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成浆池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#所属区域名称 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#所属区域名称">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸计量表本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#扫描架 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#扫描架">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#技术指标 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#技术指标">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#质量标准"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抽浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抽浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#振筛槽泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#振筛槽泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸供料槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸供料槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸浓缩机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸浓缩机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸渣浆槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸渣浆槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸疏解机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸疏解机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#排风机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#排风机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#风机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#排风风机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#排风风机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#风机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#描述 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#描述">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#纸浆用化学品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#操作侧断纸信号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#操作侧断纸信号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#断纸信号"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#料仓输送螺旋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#料仓输送螺旋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#料斗搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#料斗搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#断纸信号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#断纸信号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#施胶机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#施胶机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#施胶机底辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#施胶机底辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#施胶机损纸池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#施胶机损纸池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸池"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#施胶机损纸池抽浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#施胶机损纸池抽浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抽浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#施胶机损纸池搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#施胶机损纸池搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#施胶机顶辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#施胶机顶辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#机外白水槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#机外白水槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#校正辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#校正辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#检验方式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#检验方式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#质量标准"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#汽罩 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#汽罩">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流浆箱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流浆箱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#计量表类型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#浆网速 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#浆网速">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#浊滤液池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#浊滤液池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#液位计 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#液位计">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#计量表类型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#淀粉转化槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#淀粉转化槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#清水池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#清水池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#清滤液池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#清滤液池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#温度计 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#温度计">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#计量表类型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#湿损纸塔 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#湿损纸塔">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#纸塔"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#湿损纸塔抽浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#湿损纸塔抽浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抽浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#湿损纸塔抽浆泵电机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#湿损纸塔抽浆泵电机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#湿损纸塔搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#湿损纸塔搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#溶解槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#溶解槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#烘缸传动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#烘缸传动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#烘缸断纸信号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#烘缸断纸信号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#断纸信号"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#烘缸组 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#烘缸组">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#热分散加热螺旋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#热分散加热螺旋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#热分散启停池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#热分散启停池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#热分散挤浆螺旋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#热分散挤浆螺旋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#热辊压光机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#热辊压光机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#疏解泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#疏解泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#白水池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#白水池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#真空伏辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#真空伏辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#真空密封水系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#真空密封水系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#真空泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#真空泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#真空泵密封水槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#真空泵密封水槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#真空泵滤液槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#真空泵滤液槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#真空箱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#真空箱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤中浓立管 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤中浓立管">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤中浓立管泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤中浓立管泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤储浆塔卸料泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤储浆塔卸料泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卸料泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤储浆塔搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤储浆塔搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤多圆盘 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤多圆盘">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤多盘浆池搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤多盘浆池搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散加料螺旋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散加料螺旋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散加热螺旋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散加热螺旋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#热分散加热螺旋"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散挤压螺旋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散挤压螺旋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散料塞螺旋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散料塞螺旋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散破碎螺旋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散破碎螺旋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散磨机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散磨机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散预挤浆螺旋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤热分散预挤浆螺旋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#热分散挤浆螺旋"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤磨前浆槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤磨前浆槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤磨前浆槽抽浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#短纤磨前浆槽抽浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抽浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+        <属性 rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机实际液位 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机实际液位">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型参数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机抽浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机抽浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抽浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机设定液位 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机设定液位">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型参数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆输送链板 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆输送链板">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#稀释水筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#稀释水筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛筛渣池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛筛渣池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#精筛入口泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#精筛入口泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#纸加工化学品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#纸加工化学品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#纸塔 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#纸塔">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#纸浆用化学品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#纸浆用化学品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#网部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#网部">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#网部排汽风机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#网部排汽风机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#风机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#网部清洁风机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#网部清洁风机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#风机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#胶料储存槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#胶料储存槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#胶料泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#胶料泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#舒展辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#舒展辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽组 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽组">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸煮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸煮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸煮泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸煮泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#规格型号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#规格型号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#质量标准"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#计量表别名 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#计量表别名">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#计量表名称"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#计量表名称 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#计量表名称">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸计量表本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#计量表类型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#计量表类型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸计量表本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备别名 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备别名">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸设备模型本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型参数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型参数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸设备模型本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型参数标签 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型参数标签">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型参数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#质量标准 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#质量标准">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#超清滤液池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#超清滤液池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#转子主电机电流 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#转子主电机电流">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型参数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#转移吸水箱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#转移吸水箱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂1段进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂1段进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂进浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂2段进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂2段进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂进浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂3段进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂3段进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂进浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂4段进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂4段进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂进浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂5段进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂5段进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂进浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#进浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#进风风机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#进风风机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#风机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸化学品本体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸化学品本体"/>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸工艺本体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸工艺本体"/>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸计量表本体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸计量表本体">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸设备模型本体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸设备模型本体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#造纸设备模型本体"/>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#配方 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#配方">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#纸加工化学品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣1段 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣1段">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣1段入口泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣1段入口泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣段入口泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣2段 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣2段">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣2段入口泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣2段入口泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣段入口泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣3段 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣3段">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣3段入口泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣3段入口泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣段入口泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣4段 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣4段">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣4段入口泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣4段入口泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣段入口泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣段入口泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#重质除渣段入口泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#入口泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤中浓泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤中浓泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤中浓立管 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤中浓立管">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤储浆塔 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤储浆塔">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤储浆塔卸料泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤储浆塔卸料泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#卸料泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤储浆塔搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤储浆塔搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤双盘磨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤双盘磨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤多圆盘 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤多圆盘">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤多圆盘清滤液泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤多圆盘清滤液泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤热分散加热螺旋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤热分散加热螺旋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#热分散加热螺旋"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤热分散挤浆螺旋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤热分散挤浆螺旋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#热分散挤浆螺旋"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤热分散磨机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤热分散磨机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤磨前池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤磨前池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤磨前池抽浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤磨前池抽浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抽浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤磨前池搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤磨前池搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤磨后池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤磨后池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤磨后池抽浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤磨后池抽浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抽浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤磨后池搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤磨后池搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛入口泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛入口泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#入口泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛除渣器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛除渣器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除气器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除气器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除渣器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除渣器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除砂器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除砂器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#零位计 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#零位计">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#计量表类型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层2段筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层2段筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层2段筛进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层2段筛进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#进浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层2段除砂器进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层2段除砂器进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#进浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层3段除砂器进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层3段除砂器进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#进浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层4段除砂器进浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层4段除砂器进浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#进浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层上料桶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层上料桶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层上浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层上浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#上浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层成浆池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层成浆池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成浆池"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层成浆池搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层成浆池搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层成浆池泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层成浆池泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层振筛槽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层振筛槽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层流浆箱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层流浆箱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流浆箱"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层混合浆池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层混合浆池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层混合浆池供料泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层混合浆池供料泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#供料泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层混合浆池搅拌器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层混合浆池搅拌器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#搅拌器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层纸机筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层纸机筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层胶料一段筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层胶料一段筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一段筛"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层胶料泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层胶料泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#胶料泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层除气器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层除气器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除气器"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面浆冲浆泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面浆冲浆泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#冲浆泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#顶网张力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#顶网张力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#顶网转动辊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#顶网转动辊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#辊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#风机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#风机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#高浓除渣器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#高浓除渣器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#高浓除砂器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#高浓除砂器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#高真空箱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#高真空箱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#1段粗筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#1段粗筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#1段长纤精筛入口泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#1段长纤精筛入口泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛入口泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#2段长纤精筛入口泵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#2段长纤精筛入口泵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛入口泵"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#3段粗筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#3段粗筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#4段康比筛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#4段康比筛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#设备模型"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一段蒸煮泵1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一段蒸煮泵1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸煮泵"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一段蒸煮泵2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一段蒸煮泵2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#一段蒸煮泵2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸煮泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#主清水管清水流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#主清水管清水流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#主蒸汽管进烘缸蒸汽压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#主蒸汽管进烘缸蒸汽压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#主蒸汽管进烘缸蒸汽温度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#主蒸汽管进烘缸蒸汽温度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#温度计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#主蒸汽管进烘缸蒸汽瞬时流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#主蒸汽管进烘缸蒸汽瞬时流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#二段蒸煮泵1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#二段蒸煮泵1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸煮泵"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#二段蒸煮泵2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#二段蒸煮泵2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#二段蒸煮泵2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸煮泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池搅拌器1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池搅拌器1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池搅拌器"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池搅拌器2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池搅拌器2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池搅拌器2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#伏辊损纸池搅拌器"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#储存槽泵1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#储存槽泵1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#储存槽泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#储存槽泵2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#储存槽泵2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#储存槽泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#切边水温测量值 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#切边水温测量值">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#温度计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#制浆车间仪表用气压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#制浆车间仪表用气压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#制浆车间清水流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#制浆车间清水流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#制浆车间蒸汽压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#制浆车间蒸汽压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#制浆车间蒸汽温度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#制浆车间蒸汽温度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#温度计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#前烘汽罩零位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#前烘汽罩零位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#零位计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#前烘汽罩零位控制 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#前烘汽罩零位控制">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#零位计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#助留剂面层加入流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#助留剂面层加入流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#包裹剂流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#包裹剂流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压缩空气仪表用气压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压缩空气仪表用气压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压缩空气工艺用气压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压缩空气工艺用气压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#后烘汽罩零位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#后烘汽罩零位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#零位计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#后烘汽罩零位控制 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#后烘汽罩零位控制">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#零位计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#固体黄出口压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#固体黄出口压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#备用泵2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#备用泵2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#备用泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#备用泵4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#备用泵4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#备用泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#差压湍流发生器压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#差压湍流发生器压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#干强剂储存槽液位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#干强剂储存槽液位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#液位计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#干强剂加入流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#干强剂加入流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#干网保洁剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#干网保洁剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层OCC短纤配浆流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层OCC短纤配浆流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层干强剂流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层干强剂流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层振筛槽泵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层振筛槽泵">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#振筛槽泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层振筛移动喷淋流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层振筛移动喷淋流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层损纸配浆流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层损纸配浆流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层皂土流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层皂土流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层胶料泵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层胶料泵"/>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层胶料泵1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层胶料泵1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层膨润土加入流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层膨润土加入流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层高聚物稀释水流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底层高聚物稀释水流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底网加入流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#底网加入流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成形辊入口润滑水压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成形辊入口润滑水压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成形靴入口润滑水压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成形靴入口润滑水压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成形靴润滑水压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#成形靴润滑水压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抑垢剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#抑垢剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸1段筛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸1段筛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸筛"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸2段筛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸2段筛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸筛"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸3段筛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸3段筛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸筛"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸浆进料流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#损纸浆进料流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#杀菌剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#杀菌剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#染料红色化学品 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#染料红色化学品">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#染料黄色化学品 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#染料黄色化学品">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#染料黑色化学品 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#染料黑色化学品">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#树脂控制剂（表胶） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#树脂控制剂（表胶）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#次氯酸钠 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#次氯酸钠">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#毛布保洁剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#毛布保洁剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#消泡剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#消泡剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#淀粉转化酶 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#淀粉转化酶">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#淀粉酶流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#淀粉酶流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#淀粉（玉米） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#淀粉（玉米）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#湿强剂底层加入流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#湿强剂底层加入流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#湿强剂面层加入流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#湿强剂面层加入流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#烘缸剥离剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#烘缸剥离剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#皂土储存槽液位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#皂土储存槽液位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#液位计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机集渣罐压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碎浆机集渣罐压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碳酸钙储存槽液位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碳酸钙储存槽液位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#液位计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碳酸钙流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碳酸钙流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碳酸钙稀释水流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#碳酸钙稀释水流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛出口压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛出口压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#红色染料 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#红色染料">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#网保洁剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#网保洁剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至加热流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至加热流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至化学品温水槽流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至化学品温水槽流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至损纸温水加热器流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至损纸温水加热器流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至施胶流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至施胶流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至机外白水槽流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至机外白水槽流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至流浆箱流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至流浆箱流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至湿部淀粉蒸煮流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至湿部淀粉蒸煮流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至蒸汽箱压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至蒸汽箱压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至蒸汽箱温度 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽至蒸汽箱温度">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#温度计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽进烘缸蒸汽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#蒸汽进烘缸蒸汽">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#表胶剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#表胶剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#表胶剂液位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#表胶剂液位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#液位计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#转移真空箱润滑水压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#转移真空箱润滑水压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂1段 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂1段">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂2段 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂2段">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂3段 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂3段">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂4段 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂4段">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂5段 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂5段">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#轻质除砂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#鑫甬干强剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#鑫甬干强剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛筛渣至碎浆机流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛筛渣至碎浆机流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除臭剂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除臭剂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层1段除砂器 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层1段除砂器">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除砂器"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层2段除砂器 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层2段除砂器">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除砂器"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层3段除砂器 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层3段除砂器">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除砂器"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层4段除砂器 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层4段除砂器">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#除砂器"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层OCC短纤配浆流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层OCC短纤配浆流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层OCC长纤配浆流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层OCC长纤配浆流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层UKP配浆流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层UKP配浆流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层振筛槽泵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层振筛槽泵">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#振筛槽泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层振筛移动喷淋流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层振筛移动喷淋流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层浆供浆流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层浆供浆流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层皂土出口压力 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层皂土出口压力">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#压力计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层皂土流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层皂土流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层胶料泵1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层胶料泵1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#胶料泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层胶料泵2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层胶料泵2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层膨润土加入流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层膨润土加入流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层表胶流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层表胶流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层高聚物稀释水流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#面层高聚物稀释水流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#顶网加入流量 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#顶网加入流量">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#流量计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#高聚物储存槽液位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#高聚物储存槽液位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#液位计"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#黄色染料 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#黄色染料">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#黄色染料（固体）R -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#黄色染料（固体）R">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#1段粗筛进浆泵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#1段粗筛进浆泵">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛进浆泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#1段长纤精筛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#1段长纤精筛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#2段粗筛进浆泵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#2段粗筛进浆泵">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛进浆泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#2段长纤精筛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#2段长纤精筛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#3段粗筛进浆泵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#3段粗筛进浆泵">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛进浆泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#3段长纤精筛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#3段长纤精筛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#长纤精筛"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#4段粗筛进浆泵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#4段粗筛进浆泵">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#粗筛进浆泵"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#聚合氯化铝(湿部) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#聚合氯化铝(湿部)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2024/2/untitled-ontology-25#化学品"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
