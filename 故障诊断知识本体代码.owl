@@ -6,7 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9"/>
     
 
 
@@ -21,51 +21,51 @@
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#产品质量问题 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#产品质量问题 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#产品质量问题">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#故障"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#产品质量问题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#故障"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#产生原因 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#产生原因 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#产生原因"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#产生原因"/>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#作用部位 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#作用部位 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#作用部位">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#关系"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#作用部位">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#关系"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#关系 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#关系 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#关系"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#关系"/>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#原材料层面 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#原材料层面 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#原材料层面">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#部位"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#原材料层面">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#部位"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#工艺层面 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#工艺层面 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#工艺层面">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#部位"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#工艺层面">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#部位"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#故障 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#故障 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#故障"/>
     
