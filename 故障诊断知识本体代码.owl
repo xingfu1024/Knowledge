@@ -67,127 +67,127 @@
 
     <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#故障 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#故障"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#故障"/>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#故障表现 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#故障表现 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#故障表现">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#关系"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#故障表现">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#关系"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#故障诊断 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#故障诊断 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#故障诊断">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#关系"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#故障诊断">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#关系"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#故障部位 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#故障部位 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#故障部位">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#关系"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#故障部位">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#关系"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测"/>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测技术 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测技术 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测技术">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测技术">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测指标 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测指标 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测指标">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测指标">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测方法 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测方法 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测方法">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测方法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测类型 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测类型 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测类型">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测类型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测结果 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测结果 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#检测结果">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#关系"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#检测结果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#关系"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#现象 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#现象 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#现象"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#现象"/>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#解决办法 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#解决办法 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#解决办法"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#解决办法"/>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#设备层面 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#设备层面 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#设备层面">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#部位"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#设备层面">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#部位"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#诊断依据 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#诊断依据 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#诊断依据">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#关系"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#诊断依据">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#关系"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#质量指标 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#质量指标 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#质量指标">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#产品质量问题"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#质量指标">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#产品质量问题"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#质量检测 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#质量检测 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#质量检测">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#关系"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#质量检测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#关系"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#部位 -->
+    <!-- http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#部位 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/huanhuan/ontologies/2022/3/untitled-ontology-9#部位"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2022/3/untitled-ontology-9#部位"/>
 </rdf:RDF>
 
 
